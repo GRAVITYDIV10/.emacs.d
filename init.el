@@ -27,9 +27,11 @@
 (ido-mode 1)
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c-mode-hook 'company-mode)
+
+
 (require 'ox-publish)
-(defvar blog-path (concat (getenv "HOME") "/work/GRAVITYDIV10.github.io"))
-(defvar blog-base-directory (concat blog-path "/org/"))
+(defvar blog-path (concat (getenv "HOME") "/work/gravitydiv10.github.io"))
+(defvar blog-base-directory (concat blog-path "/"))
 (defvar blog-publishing-directory (concat blog-path "/"))
 
 (setq org-html-metadata-timestamp-format "%Y-%m-%d")
@@ -61,3 +63,5 @@
          :section-numbers nil           ; num:nil
          :html-postamble "<p>Last updated: %C</p>"
          :html-wrap-src-lines t)))
+
+(server-start)
