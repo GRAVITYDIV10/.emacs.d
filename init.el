@@ -15,7 +15,8 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages '(eglot yaml company yaml-mode dts-mode))
  '(size-indication-mode t)
- '(tab-bar-mode t))
+ '(tab-bar-mode t)
+ '(xterm-mouse-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
