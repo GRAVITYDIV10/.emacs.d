@@ -2,4 +2,7 @@
 auto-save-list/
 eln-cache/
 elpa/
+eshell/
+server/
+org-persist/
 ido.last

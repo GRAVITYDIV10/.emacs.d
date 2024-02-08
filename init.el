@@ -65,4 +65,6 @@
          :html-postamble "<p>Last updated: %C</p>"
          :html-wrap-src-lines t)))
 
+(set-default-coding-systems 'utf-8)
+
 (server-start)
